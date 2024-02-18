@@ -1,0 +1,41 @@
+.bg {
+  z-index: -5;
+  background-color: #f6eada;
+  height: 400px;
+  margin-bottom: 900px;
+}
+
+.bg-kopi {
+  position: absolute;
+  width: 500px;
+  height: 400px;
+  top: -52px;
+  left: 20px;
+  transform: rotate(-10deg);
+}
+
+.bg-rounded {
+  background-color: #f9d9aa;
+  margin-left: 60px;
+  margin-right: 60px;
+  height: 300px;
+  margin-top: -180px;
+  border-radius: 25px;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 767px) {
+  .bg-rounded {
+    display: none;
+  }
+
+  .bg-kopi {
+    position: absolute;
+    width: 250px;
+    height: 200px;
+    top: -60px;
+    left: 20px;
+    transform: rotate(-10deg);
+  }
+}
