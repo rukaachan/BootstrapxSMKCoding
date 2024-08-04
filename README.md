@@ -1,0 +1,1 @@
+The purpose of this project is to implement the website design provided by SMK Coding using the Bootstrap framework. Bootstrap was chosen because of its ability to provide components and utilities that allow the rapid creation of responsive and functional designs.
